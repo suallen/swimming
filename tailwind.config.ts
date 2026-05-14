@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        deep: "hsl(var(--deep))",
+        ocean: "hsl(var(--ocean))",
+        wave: "hsl(var(--wave))",
+        foam: "hsl(var(--foam))",
+        sun: "hsl(var(--sun))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
