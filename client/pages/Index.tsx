@@ -623,7 +623,7 @@ export default function Index() {
               <div className="text-xs font-bold uppercase tracking-[0.25em] text-primary">
                 The countdown
               </div>
-              <h2 className="mt-3 font-display text-4xl md:text-5xl lg:text-6xl font-black text-deep text-balance">
+              <h2 className="mt-3 font-display text-4xl md:text-5xl lg:text-6xl font-black text-blue-600 text-balance">
                 The five best swimming styles, ranked.
               </h2>
               <p className="mt-4 text-lg text-foreground/70 max-w-xl">
