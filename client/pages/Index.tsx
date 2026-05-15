@@ -216,7 +216,7 @@ function Hero() {
                 One open lane.
               </span>
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-white/80 max-w-xl text-balance">
+            <p className="mt-6 text-lg md:text-xl text-white/80 max-w-xl text-balance italic">
               From the explosive butterfly to the quietly efficient sidestroke —
               meet the five swimming styles every swimmer should know, ranked by
               what they actually do for your body.
