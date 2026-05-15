@@ -227,11 +227,11 @@ function Hero() {
       <div className="container relative pt-20 pb-32 md:pt-28 md:pb-44">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide uppercase ring-1 ring-white/20">
+            <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(108,244,70,0.1)] backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide uppercase ring-1 ring-white/20">
               <Star className="h-3.5 w-3.5 fill-sun text-sun" />
               The definitive guide · 2025 edition
             </div>
-            <h1 className="mt-6 font-display text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] text-balance">
+            <h1 className="mt-6 font-display text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] text-balance bg-[rgb(22,101,97)]">
               Five strokes.
               <br />
               <span className="bg-gradient-to-r from-foam via-wave to-sun bg-clip-text text-transparent">
