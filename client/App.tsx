@@ -29,4 +29,8 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+const container = document.getElementById("root")!;
+// Reuse existing root during HMR to avoid "createRoot on already-initialized container" warning
+const root = (container as any).__reactRoot ?? createRoot(container);
+(container as any).__reactRoot = root;
+root.render(<App />);
