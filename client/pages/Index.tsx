@@ -238,7 +238,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="mt-12 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm text-white/70">
+            <div className="mt-12 flex flex-wrap items-center gap-x-10 gap-y-4 text-[17px] text-white/70">
               <div className="flex items-center gap-2">
                 <Trophy className="h-5 w-5 text-sun" />
                 Olympic-grade technique
