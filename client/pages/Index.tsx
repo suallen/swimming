@@ -119,6 +119,7 @@ function Header() {
     { label: "Compare", href: "#compare" },
     { label: "Coach", href: "#coach" },
     { label: "FAQ", href: "#faq" },
+    { label: "Contact", href: "/contact" },
   ];
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border/60">
@@ -136,15 +137,25 @@ function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
-            >
-              {l.label}
-            </a>
-          ))}
+          {links.map((l) =>
+            l.href.startsWith("/") ? (
+              <Link
+                key={l.href}
+                to={l.href}
+                className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
+              >
+                {l.label}
+              </Link>
+            ) : (
+              <a
+                key={l.href}
+                href={l.href}
+                className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
+              >
+                {l.label}
+              </a>
+            )
+          )}
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
@@ -168,16 +179,27 @@ function Header() {
       {open && (
         <div className="md:hidden border-t border-border/60 bg-background">
           <div className="container py-4 flex flex-col gap-3">
-            {links.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="py-2 text-base font-medium text-foreground/80"
-              >
-                {l.label}
-              </a>
-            ))}
+            {links.map((l) =>
+              l.href.startsWith("/") ? (
+                <Link
+                  key={l.href}
+                  to={l.href}
+                  onClick={() => setOpen(false)}
+                  className="py-2 text-base font-medium text-foreground/80"
+                >
+                  {l.label}
+                </Link>
+              ) : (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="py-2 text-base font-medium text-foreground/80"
+                >
+                  {l.label}
+                </a>
+              )
+            )}
             <a
               href="#strokes"
               onClick={() => setOpen(false)}
