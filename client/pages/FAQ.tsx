@@ -39,6 +39,21 @@ export default function FAQ() {
                 stroke to learn, train, or race.
               </p>
             </div>
+            <blockquote className="mt-12 relative rounded-3xl bg-ocean-gradient text-white px-8 py-10 md:px-12 overflow-hidden">
+              <div className="pointer-events-none absolute -top-6 -left-4 text-[10rem] font-display font-black text-white/10 leading-none select-none">
+                "
+              </div>
+              <p className="relative font-display text-2xl md:text-3xl font-bold italic leading-snug text-balance">
+                Water is the one substance from which the Earth can conceal nothing. Sooner or later, everything ends up in the sea.
+              </p>
+              <footer className="relative mt-6 flex items-center gap-3">
+                <div className="h-px flex-1 bg-white/20" />
+                <cite className="not-italic text-sm font-semibold text-white/70">
+                  Jacques-Yves Cousteau
+                </cite>
+              </footer>
+            </blockquote>
+
             <div className="mt-12 space-y-4">
               {faqs.map((f) => (
                 <details
