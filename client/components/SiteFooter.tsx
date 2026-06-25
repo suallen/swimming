@@ -53,9 +53,9 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
-              <a href="/#faq" className="hover:text-wave transition-colors">
+              <Link to="/faq" className="hover:text-wave transition-colors">
                 FAQ
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

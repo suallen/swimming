@@ -122,6 +122,12 @@ export const REVIEWS: Record<string, Review[]> = {
       comment:
         "Great all-rounder. The bilateral breathing took a few weeks to nail but it was worth the effort.",
     },
+    {
+      author: "Nolan G.",
+      rating: 5,
+      comment:
+        "Freestyle made my workouts feel smoother and faster. It is the stroke I come back to for every serious set.",
+    },
   ],
   butterfly: [
     {
@@ -141,6 +147,12 @@ export const REVIEWS: Record<string, Review[]> = {
       rating: 5,
       comment:
         "Best core workout in the water, period. My coach calls it 'flying' and that's exactly what it feels like.",
+    },
+    {
+      author: "Amara J.",
+      rating: 4,
+      comment:
+        "It took patience to build the rhythm, but butterfly turned short sets into the most rewarding part of practice.",
     },
   ],
   backstroke: [
@@ -162,6 +174,12 @@ export const REVIEWS: Record<string, Review[]> = {
       comment:
         "Improved my posture noticeably after six weeks. My physio actually recommended it.",
     },
+    {
+      author: "Owen H.",
+      rating: 4,
+      comment:
+        "Backstroke helped me focus on alignment without fighting for air. It is my favorite cooldown stroke now.",
+    },
   ],
   breaststroke: [
     {
@@ -182,6 +200,12 @@ export const REVIEWS: Record<string, Review[]> = {
       comment:
         "Elite breaststroke is a completely different beast. My technique coach changed my race times by 3 seconds.",
     },
+    {
+      author: "Mei R.",
+      rating: 5,
+      comment:
+        "Breaststroke finally made lap swimming approachable for me. The glide gives every length a nice reset.",
+    },
   ],
   sidestroke: [
     {
@@ -201,6 +225,12 @@ export const REVIEWS: Record<string, Review[]> = {
       rating: 4,
       comment:
         "Underrated for fitness. The scissor kick engages my hips way more than I expected.",
+    },
+    {
+      author: "Samira Q.",
+      rating: 5,
+      comment:
+        "Sidestroke is the one I trust when I want steady distance without burning out halfway through the swim.",
     },
   ],
 };

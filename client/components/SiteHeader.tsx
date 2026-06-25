@@ -6,7 +6,7 @@ const links = [
   { label: "Strokes", href: "/#strokes" },
   { label: "Compare", href: "/compare" },
   { label: "Coach", href: "/#coach" },
-  { label: "FAQ", href: "/#faq" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export function SiteHeader() {
