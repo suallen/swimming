@@ -32,7 +32,7 @@ export function SiteHeader() {
               <a
                 key={l.href}
                 href={l.href}
-                className="text-sm font-medium text-[#123047]/70 transition-colors hover:text-[#168aad]"
+                className={`text-sm ${l.href === "/#strokes" ? "font-bold" : "font-medium"} text-[#123047]/70 transition-colors hover:text-[#168aad]`}
               >
                 {l.label}
               </a>
@@ -40,7 +40,7 @@ export function SiteHeader() {
               <Link
                 key={l.href}
                 to={l.href}
-                className="text-sm font-medium text-[#123047]/70 transition-colors hover:text-[#168aad]"
+                className={`text-sm ${l.href === "/#strokes" ? "font-bold" : "font-medium"} text-[#123047]/70 transition-colors hover:text-[#168aad]`}
               >
                 {l.label}
               </Link>
