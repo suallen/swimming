@@ -47,14 +47,14 @@ function Hero() {
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <a
                 href="#strokes"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-deep px-7 py-4 text-base font-bold shadow-xl shadow-deep/30 hover:bg-foam transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-pink-500 text-white px-7 py-4 text-base font-bold shadow-xl shadow-pink-500/30 hover:bg-pink-600 transition-colors"
               >
                 Explore the five
                 <ArrowRight className="h-5 w-5" />
               </a>
               <Link
                 to="/compare"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-white/10 backdrop-blur ring-1 ring-white/30 px-7 py-4 text-base font-semibold hover:bg-white/20 transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#8B5E3C] text-white px-7 py-4 text-base font-semibold shadow-lg shadow-[#8B5E3C]/30 hover:bg-[#70482D] transition-colors"
               >
                 Compare them
               </Link>
