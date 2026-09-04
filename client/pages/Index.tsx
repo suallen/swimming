@@ -62,7 +62,7 @@ function Hero() {
 
             <div className="mt-12 flex flex-wrap items-center gap-x-10 gap-y-4 text-[17px] text-white/70">
               <div className="flex items-center gap-2">
-                <Trophy className="h-5 w-5 text-sun" />
+                <Trophy className="h-5 w-5 text-green-500" />
                 Olympic-grade technique
               </div>
               <div className="flex items-center gap-2">
